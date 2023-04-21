@@ -2,38 +2,59 @@
 <html>
 
 <head>
-    <title>WasteCalc</title>
+    <title>UrbanCorp</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
     <link rel="stylesheet" type="text/css" href="css files/style.css">
 </head>
 
 <body>
     <header>
-        <h1>WasteCalc</h1>
+        <img src="images/logo.png" alt="logo">
+        <h1>UrbanCorp</h1>
+        <div class="nav-pane">
+            <h3>Home</h3>
+            <h3>About</h3>
+            <h3>Contact us</h3>
+        </div>
     </header>
     <main>
-        <section id="calculation">
-            <h2>WasteCalc</h2>
-            <form>
-                <label for="carbon">Carbon Materials (in %):</label>
-                <input type="number" id="carbon" name="carbon" min="0" max="100" step="0.1" required>
-                <label for="nitrogen">Nitrogen Materials (in %):</label>
-                <input type="number" id="nitrogen" name="nitrogen" min="0" max="100" step="0.1" required>
-                <button type="submit">Calculate</button>
-            </form>
-        </section>
-        <section id="result">
-            <h2>Compost Recipe</h2>
-            <div id="recipe-result">
-                <p>Your compost should consist of:</p>
-                <ul id="recipe-list">
-                    <li id="carbon-recipe">Carbon Materials: <span></span>%</li>
-                    <li id="nitrogen-recipe">Nitrogen Materials: <span></span>%</li>
-                </ul>
+        <section class="body-text">
+            <h1>Keep your city clean</h1>
+            <p>At UrbanCorp, we believe that a clean environment is essential for a healthy and vibrant community.
+                Our mission is to inspire and empower individuals to take action in keeping our city clean, green, and
+                sustainable.
+            </p>
+            <li>
+                <p>Why UrbanCorp?</p>
+                <ul>Community-driven: We believe that community involvement is key to achieving lasting change.</ul>
+                <ul>Education and awareness: We provide educational resources, workshops, and campaigns to raise
+                    awareness about the importance of having a clean city</ul>
+                <ul>Action-oriented: We organize regular clean-up events, tree planting initiatives, and other
+                    activities to actively engage our community in hands-on environmental action.</ul>
+                <ul>Inclusivity: We strive to make our clean city movement inclusive and accessible to all, regardless
+                    of age, background, or ability. We believe that everyone has a role to play in creating a cleaner
+                    future for our city.</ul>
+            </li>
+            <p>Join us today and contribute to waste composting! Together, we can create a greener, cleaner, and more
+                sustainable city for generations to come.
+            </p>
+            <img src="images/city.jpeg" alt="Smart city">
+            <div id="get_started">
+                <button href="get_started.html">Get Started</button>
             </div>
         </section>
     </main>
     <footer>
-        <p>&copy; 2023 WasteCalc. All rights reserved.</p>
+        <div id="bottom icon">
+            <img src="images/logo.png" alt="logo">
+        </div>
+        <div id="botton-nav">
+
+        </div>
+        <div id="socials">
+
+        </div>
+        <p>&copy; 2023 UrbanCorp. All rights reserved.</p>
     </footer>
 </body>
 
