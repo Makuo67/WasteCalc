@@ -1,0 +1,23 @@
+.button {
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.button button {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    transition: background-color 0.3s, letter-spacing 0.3s;
+}
+
+.button button:hover {
+    background-color: lightgreen;
+    letter-spacing: 2px;
+}

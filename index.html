@@ -4,56 +4,68 @@
 <head>
     <title>UrbanCorp</title>
     <link rel="icon" type="image/x-icon" href="images/logo.png">
-    <link rel="stylesheet" type="text/css" href="css files/style.css">
+    <link rel="stylesheet" type="text/css" href="css_files/style.css">
+    <link rel="stylesheet" type="text/css" href="css_files/header.css">
+    <link rel="stylesheet" type="text/css" href="css_files/footer.css">
+    <link rel="stylesheet" type="text/css" href="css_files/button.css">
+    <link rel="stylesheet" type="text/css" href="css_files/get_started.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
     <header>
-        <img src="images/logo.png" alt="logo">
-        <h1>UrbanCorp</h1>
+        <div id="logo-nav">
+            <img src="images/logo.png" alt="logo">
+            <h1>UrbanCorp</h1>
+        </div>
+
         <div class="nav-pane">
-            <h3>Home</h3>
-            <h3>About</h3>
-            <h3>Contact us</h3>
+            <h3 onclick="document.location='index.html'">Home</h3>
+            <h3 onclick="document.location='about.html'">About</h3>
+            <h3 onclick="document.location='contact.html'">Contact us</h3>
         </div>
     </header>
     <main>
-        <section class="body-text">
+        <section class="body-text"
+            style="background-image: url('images/blissful-penguin-VD-q9UYzfBA-unsplash\ \(1\).jpg')">
             <h1>Keep your city clean</h1>
             <p>At UrbanCorp, we believe that a clean environment is essential for a healthy and vibrant community.
                 Our mission is to inspire and empower individuals to take action in keeping our city clean, green, and
                 sustainable.
             </p>
-            <li>
-                <p>Why UrbanCorp?</p>
-                <ul>Community-driven: We believe that community involvement is key to achieving lasting change.</ul>
-                <ul>Education and awareness: We provide educational resources, workshops, and campaigns to raise
-                    awareness about the importance of having a clean city</ul>
-                <ul>Action-oriented: We organize regular clean-up events, tree planting initiatives, and other
-                    activities to actively engage our community in hands-on environmental action.</ul>
-                <ul>Inclusivity: We strive to make our clean city movement inclusive and accessible to all, regardless
+            <p>Why UrbanCorp?</p>
+            <ul>
+                <li>Community-driven: We believe that community involvement is key to achieving lasting change.</li>
+                <li>Education and awareness: We provide educational resources, workshops, and campaigns to raise
+                    awareness about the importance of having a clean city</li>
+                <li>Action-oriented: We organize regular clean-up events, tree planting initiatives, and other
+                    activities to actively engage our community in hands-on environmental action.</li>
+                <li>Inclusivity: We strive to make our clean city movement inclusive and accessible to all, regardless
                     of age, background, or ability. We believe that everyone has a role to play in creating a cleaner
-                    future for our city.</ul>
-            </li>
-            <p>Join us today and contribute to waste composting! Together, we can create a greener, cleaner, and more
-                sustainable city for generations to come.
+                    future for our city.</li>
+                </li>
+            </ul>
+            <p>
+                Join us today and contribute to waste composting!
             </p>
-            <img src="images/city.jpeg" alt="Smart city">
-            <div id="get_started">
-                <button href="get_started.html">Get Started</button>
+            <div class="button">
+                <button type="button" onclick="document.location='get_started.html'">Get Started</button>
             </div>
         </section>
     </main>
     <footer>
-        <div id="bottom icon">
-            <img src="images/logo.png" alt="logo">
+        <img src="images/logo.png" alt="logo">
+        <div class="footer-nav-pane">
+            <h3 onclick="document.location='index.html'">Home</h3>
+            <h3 onclick="document.location='about.html'">About</h3>
+            <h3 onclick="document.location='contact.html'">Contact us</h3>
         </div>
-        <div id="botton-nav">
+        <div id="bottom_icons">
+            <div><a href="#" class="fa fa-facebook"></a></div>
+            <div><a href="#" class="fa fa-twitter"></a></div>
+            <div><a href="#" class="fa fa-instagram"></a></div>
+        </div>
 
-        </div>
-        <div id="socials">
-
-        </div>
         <p>&copy; 2023 UrbanCorp. All rights reserved.</p>
     </footer>
 </body>
