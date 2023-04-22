@@ -1,0 +1,63 @@
+ /* Styling for body */
+ body {
+     background-color: #5E8C31;
+     color: #FFF8E7;
+     font-family: 'Open Sans', sans-serif;
+     margin: 0;
+ }
+
+ #compost h1 {
+     padding-left: 40px;
+ }
+
+ #calculation {
+     margin-top: 10px;
+     margin-bottom: 20px;
+ }
+
+ #calculation h2 {
+     padding-left: 40px;
+ }
+
+ /* Styling for form */
+ form {
+     max-width: 500px;
+     margin: 0 auto;
+ }
+
+ /* Styling for form labels */
+ label {
+     display: block;
+     margin-bottom: 10px;
+     font-size: 18px;
+ }
+
+ /* Styling for form inputs */
+ input,
+ select {
+     display: block;
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 20px;
+     font-size: 16px;
+     border: none;
+     border-radius: 5px;
+     color: #000;
+     background-color: #FFF8E7;
+ }
+
+ /* Styling for submit button */
+ input[type="submit"] {
+     background-color: #AAB300;
+     color: #FFF8E7;
+     font-size: 18px;
+     font-weight: bold;
+     cursor: pointer;
+     width: min-content;
+ }
+
+ input[type="submit"]:hover {
+     background-color: #5E8C31;
+     letter-spacing: 0.5px;
+     transition: 0.5s;
+ }

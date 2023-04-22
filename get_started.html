@@ -24,25 +24,40 @@
                 <h3>Contact us</h3>
             </div>
         </header>
+        <section id="compost">
+            <h1>Compost Calculator</h1>
+            <form>
+                <label for="waste-type">Waste Type:</label>
+                <select id="waste-type" name="waste-type">
+                    <option value="food-scraps">Food Scraps</option>
+                    <option value="yard-waste">Yard Waste</option>
+                    <option value="leaves">Leaves</option>
+                    <option value="coffee-grounds">Coffee Grounds</option>
+                    <option value="paper-waste">Paper Waste</option>
+                    <option value="manure">Manure</option>
+                    <option value="livestock-waste">Livestock Waste</option>
+                    <option value="household-waste">Household Waste</option>
+                    <option value="plastic-waste">Plastic Waste</option>
+                </select>
+
+                <label for="duration">Duration (months):</label>
+                <input type="number" id="duration" name="duration" min="1" required>
+
+                <label for="waste-size">Waste Size (KG):</label>
+                <input type="number" id="waste-size" name="waste-size" min="0" required>
+
+                <input type="submit" value="Calculate">
+            </form>
+        </section>
         <section id="calculation">
-            <h2>UrbanCorp</h2>
+            <h2>Estimated emission:</h2>
             <form>
                 <label for="carbon">Carbon Materials (in %):</label>
                 <input type="number" id="carbon" name="carbon" min="0" max="100" step="0.1" required>
                 <label for="nitrogen">Nitrogen Materials (in %):</label>
                 <input type="number" id="nitrogen" name="nitrogen" min="0" max="100" step="0.1" required>
-                <button type="submit">Calculate</button>
+                <input type="submit" value="Calculate">
             </form>
-        </section>
-        <section id="result">
-            <h2>Compost Recipe</h2>
-            <div id="recipe-result">
-                <p>Your compost should consist of:</p>
-                <ul id="recipe-list">
-                    <li id="carbon-recipe">Carbon Materials: <span></span>%</li>
-                    <li id="nitrogen-recipe">Nitrogen Materials: <span></span>%</li>
-                </ul>
-            </div>
         </section>
     </main>
     <footer>
