@@ -3,6 +3,7 @@
 
 <head>
     <title>UrbanCorp</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.png">
     <link rel="stylesheet" type="text/css" href="css_files/header.css">
     <link rel="stylesheet" type="text/css" href="css_files/footer.css">
     <link rel="stylesheet" type="text/css" href="css_files/button.css">
@@ -11,19 +12,20 @@
 </head>
 
 <body>
-    <main>
-        <header>
-            <div id="logo-nav">
-                <img src="images/logo.png" alt="logo">
-                <h1>UrbanCorp</h1>
-            </div>
 
-            <div class="nav-pane">
-                <h3>Home</h3>
-                <h3>About</h3>
-                <h3>Contact us</h3>
-            </div>
-        </header>
+    <header>
+        <div id="logo-nav">
+            <img src="images/logo.png" alt="logo">
+            <h1>UrbanCorp</h1>
+        </div>
+
+        <div class="nav-pane">
+            <h3 onclick="document.location='index.html'">Home</h3>
+            <h3 onclick="document.location='about.html'">About</h3>
+            <h3 onclick="document.location='contact.html'">Contact us</h3>
+        </div>
+    </header>
+    <main>
         <section id="compost">
             <h1>Compost Calculator</h1>
             <form>
